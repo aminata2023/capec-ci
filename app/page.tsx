@@ -323,7 +323,15 @@ export default function Home() {
   )
 }
 
-function PublicationCard({ publication }) {
+interface Publication {
+  id: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  coverImage?: string;
+}
+
+function PublicationCard({ publication }: { publication: Publication }) {
   return (
     <Card className="overflow-hidden">
       <div className="aspect-video w-full overflow-hidden">
@@ -352,7 +360,15 @@ function PublicationCard({ publication }) {
   )
 }
 
-function NewsCard({ news }) {
+interface News {
+  id: string;
+  title: string;
+  excerpt: string;
+  date: string;
+  image?: string;
+}
+
+function NewsCard({ news }: { news: News }) {
   return (
     <Card>
       {news.image && (
