@@ -81,7 +81,7 @@ export default function Home() {
                   Conduire des recherches de haute qualité sur les questions économiques pertinentes.
                 </p>
                 <Image
-                src={"/images/recherche2.jpg?height=3000&width=500"}
+                src={"/images/recherche2.jpg?height=6000&width=1000"}
                  // src="/placeholder.svg?text=Formation+Académique&height=150&width=300"
                   alt="Recherche économique"
                   width={6000}
@@ -100,7 +100,7 @@ export default function Home() {
                   Former la prochaine génération d'analystes et de chercheurs en économie.
                 </p>
                 <Image
-                  src={"/images/30.jpg"}
+                  src={"/images/recherche2.jpg?height=6000&width=1000"}
                   alt="Formation académique"
                   width={6000}
                   height={1000}
@@ -118,10 +118,10 @@ export default function Home() {
                   Fournir des conseils stratégiques aux décideurs politiques et aux parties prenantes.
                 </p>
                 <Image
-                  src="/placeholder.svg?text=Conseil+Stratégique&height=150&width=300"
+                  src="/images/recherche2.jpg?height=6000&width=1000"
                   alt="Conseil stratégique"
-                  width={300}
-                  height={150}
+                  width={6000}
+                  height={1000}
                   className="rounded-md mt-2"
                 />
               </CardContent>
