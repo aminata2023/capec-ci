@@ -8,15 +8,22 @@ import { Footer } from "@/components/footer"
 import { Header } from "@/components/header"
 import { EventCarousel } from "@/components/carousel"
 
+
+
 export default function Home() {
   // Données pour le carrousel d'événements
+
+ // <div className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"></div>
+
+  
   const carouselEvents = [
     {
-      title: "Conférence internationale sur les politiques économiques post-pandémie",
+      title: "Cellule d'Analyse de Politiques Économiques du CIRES",
+     
       description:
         "Rejoignez-nous pour cette conférence majeure qui réunira des experts de renommée mondiale pour discuter des stratégies économiques dans l'ère post-pandémie.",
       date: "15-16 mars 2023",
-      image: "/images/1.jpg",
+      image: "/images/carousel2.jpg",
      // image: "/placeholder.svg?text=Conférence+Internationale+CAPEC&height=600&width=1200",
       learnMoreLink: "/activites/programme#event1",
       registerLink: "/activites/programme/inscription",
@@ -26,7 +33,7 @@ export default function Home() {
       description:
         "Le CAPEC lance un ambitieux programme de recherche sur l'économie verte et la transition écologique, financé par une subvention internationale.",
       date: "20 avril 2023",
-      image: "/images/2.jpg",
+      image: "/images/conference.jpg",
       learnMoreLink: "/recherches/projets/economie-verte",
     },
     {
@@ -34,11 +41,12 @@ export default function Home() {
       description:
         "Formation avancée sur les techniques économétriques pour les chercheurs et doctorants, avec un focus sur les applications pratiques.",
       date: "5-7 juin 2023",
-      image: "/images/3.jpg",
+      image: "/images/carousel3.jpg",
       learnMoreLink: "/formations/econometrie",
       registerLink: "/formations/inscription",
     },
   ]
+  
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -47,6 +55,7 @@ export default function Home() {
       {/* Carousel Section */}
       <section className="w-full">
         <EventCarousel events={carouselEvents} />
+        
       </section>
 
       {/* Mission Section */}
@@ -72,10 +81,11 @@ export default function Home() {
                   Conduire des recherches de haute qualité sur les questions économiques pertinentes.
                 </p>
                 <Image
-                  src="/placeholder.svg?text=Formation+Académique&height=150&width=300"
+                src={"/images/recherche2.jpg?height=3000&width=500"}
+                 // src="/placeholder.svg?text=Formation+Académique&height=150&width=300"
                   alt="Recherche économique"
-                  width={300}
-                  height={150}
+                  width={6000}
+                  height={1000}
                   className="rounded-md mt-2"
                 />
               </CardContent>
@@ -92,8 +102,8 @@ export default function Home() {
                 <Image
                   src={"/images/30.jpg"}
                   alt="Formation académique"
-                  width={300}
-                  height={150}
+                  width={6000}
+                  height={1000}
                   className="rounded-md mt-2"
                 />
               </CardContent>

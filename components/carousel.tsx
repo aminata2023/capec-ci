@@ -6,7 +6,9 @@ import { Card } from "@/components/ui/card"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 import { Calendar, ChevronRight, Plus } from "lucide-react"
 
+
 export function EventCarousel({ events }) {
+  
   return (
     <Carousel className="w-full">
       <CarouselContent>
@@ -21,32 +23,26 @@ export function EventCarousel({ events }) {
                       <Calendar className="mr-2 h-5 w-5" />
                       <span className="text-sm md:text-base">{event.date}</span>
                     </div>
-                    <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">{event.title}</h2>
+                    <h2 className="text-5xl md:text-4xl font-bold text-white mb-4 grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">{event.title}</h2>
                     <p className="text-white/90 mb-6 max-w-2xl text-sm md:text-base">{event.description}</p>
                     <div className="flex flex-wrap gap-3">
-                      <Link href={event.learnMoreLink}>
-                        <Button className="bg-ci-orange hover:bg-orange-600 text-white">
-                          En savoir plus
+                      <Link href="/ressources">
+                        <Button className="flex flex-col gap-2 min-[400px]:flex-row">
+                          Découvrir nos publications
                           <ChevronRight className="ml-2 h-4 w-4" />
                         </Button>
                       </Link>
                       {event.registerLink && (
-                        <Link href={event.registerLink}>
+                        <Link href= "/a-propos">
                           <Button
                             variant="outline"
-                            className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20"
+                            className="border-ci-green text-ci-green hover:bg-green-50"
                           >
-                            Inscription
+                            En savoir plus sur le CAPEC 
                           </Button>
                         </Link>
                       )}
-                      <Button
-                        variant="outline"
-                        className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20"
-                      >
-                        <Plus className="mr-2 h-4 w-4" />
-                        Ajouter à l'agenda
-                      </Button>
+         
                     </div>
                   </div>
                 </div>
