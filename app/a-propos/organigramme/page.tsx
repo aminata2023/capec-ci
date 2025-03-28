@@ -35,7 +35,7 @@ export default function OrganigrammePage() {
             <div className="space-y-6 md:hidden">
               <div className="bg-ci-orange text-white p-4 rounded-lg text-center">
                 <h3 className="font-bold">Direction</h3>
-                <p>Dr. Amadou Diallo - Directeur</p>
+                <p>Dr. Amadou aminata - Directeur</p>
                 <p>Dr. Marie Koné - Directrice Adjointe</p>
               </div>
 
@@ -75,29 +75,43 @@ export default function OrganigrammePage() {
                 <li className="flex items-center space-x-3">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden">
                     <Image
-                      src="/placeholder.svg?text=AD&height=50&width=50"
+                      src="/images/22.jpg?text=MK&height=50&width=50"
                       alt="Dr. Amadou Diallo"
                       fill
                       className="object-cover"
                     />
                   </div>
                   <div>
-                    <p className="font-medium">Dr. Amadou Diallo</p>
-                    <p className="text-sm text-muted-foreground">Directeur</p>
+                    <p className="font-medium">Dr. YEO Nahoua</p>
+                    <p className="text-sm text-muted-foreground">Directeur de Cabinet du Ministère du Plan</p>
                   </div>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="relative w-12 h-12 rounded-full overflow-hidden">
                     <Image
-                      src="/placeholder.svg?text=MK&height=50&width=50"
+                      src="/images/22.jpg?text=MK&height=50&width=50"
                       alt="Dr. Marie Koné"
                       fill
                       className="object-cover"
                     />
                   </div>
                   <div>
-                    <p className="font-medium">Dr. Marie Koné</p>
-                    <p className="text-sm text-muted-foreground">Directrice Adjointe</p>
+                    <p className="font-medium">M. ADOPO Fiacre</p>
+                    <p className="text-sm text-muted-foreground"> Directeur des Politiques et Synthèses Budgétaires (DGBF)</p>
+                  </div>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <div className="relative w-12 h-12 rounded-full overflow-hidden">
+                    <Image
+                      src="/images/22.jpg?text=MK&height=50&width=50"
+                      alt="Dr. Marie Koné"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div>
+                    <p className="font-medium">Dr DIARRA Ibrahim</p>
+                    <p className="text-sm text-muted-foreground">Directeur du CIRES</p>
                   </div>
                 </li>
               </ul>
@@ -118,8 +132,10 @@ export default function OrganigrammePage() {
                     />
                   </div>
                   <div>
-                    <p className="font-medium">Aïcha Bamba</p>
-                    <p className="text-sm text-muted-foreground">Responsable Administrative</p>
+                    <p className="font-medium">Dr ABOUA Gustave</p>
+                    <p className="text-sm text-muted-foreground">
+                      Conseiller Economique, Social, Environnemental et Culturel
+                    </p>
                   </div>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -132,8 +148,26 @@ export default function OrganigrammePage() {
                     />
                   </div>
                   <div>
-                    <p className="font-medium">Souleymane Konaté</p>
-                    <p className="text-sm text-muted-foreground">Responsable Financier</p>
+                    <p className="font-medium">Prof. BAMBA N’Galadjo</p>
+                    <p className="text-sm text-muted-foreground"> 
+                    Conseiller Ministère de l’Economie et des Finances (MEF)
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <div className="relative w-12 h-12 rounded-full overflow-hidden">
+                    <Image
+                      src="/placeholder.svg?text=SK&height=50&width=50"
+                      alt="Souleymane Konaté"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div>
+                    <p className="font-medium">M. NIANGO Guy</p>
+                    <p className="text-sm text-muted-foreground"> 
+                    Secrétaire du BNETD Représentant le Dg du BNETD
+                    </p>
                   </div>
                 </li>
               </ul>
@@ -154,8 +188,10 @@ export default function OrganigrammePage() {
                     />
                   </div>
                   <div>
-                    <p className="font-medium">Kofi Addo</p>
-                    <p className="text-sm text-muted-foreground">Chargé de Communication</p>
+                    <p className="font-medium">Honorable DIABAGATE MAmah</p>
+                    <p className="text-sm text-muted-foreground">
+                    Commission des Affaires Economiques et Financières de l'Assemblée Nationale
+                    </p>
                   </div>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -168,8 +204,26 @@ export default function OrganigrammePage() {
                     />
                   </div>
                   <div>
-                    <p className="font-medium">Fatou Traoré</p>
-                    <p className="text-sm text-muted-foreground">Responsable des Publications</p>
+                    <p className="font-medium">M. TRA BI EMMANUEL</p>
+                    <p className="text-sm text-muted-foreground">
+                    Membre de la Commission des Affaires Economiques et Financières (Assemblée Nationale);
+                    </p>
+                  </div>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <div className="relative w-12 h-12 rounded-full overflow-hidden">
+                    <Image
+                      src="/placeholder.svg?text=FT&height=50&width=50"
+                      alt="Fatou Traoré"
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div>
+                    <p className="font-medium">Prof. BALLO ZIE</p>
+                    <p className="text-sm text-muted-foreground">
+                    Président de l'UFHB de Cocody
+                    </p>
                   </div>
                 </li>
               </ul>
@@ -212,31 +266,50 @@ export default function OrganigrammePage() {
 
           <Card>
             <CardContent className="p-6">
-              <h3 className="font-bold text-lg mb-4">Équipe Développement</h3>
+              <h3 className="font-bold text-lg mb-4">EQUIPE DE RECHERCHE</h3>
               <p className="text-muted-foreground mb-4">
-                Cette équipe travaille sur les questions de développement économique, d'intégration régionale et de
-                commerce international.
+                Cette équipe travaille sur les questions de recherche.
               </p>
               <ul className="space-y-2 text-sm">
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-ci-green"></div>
-                  <span>Dr. Fatou Sow (Cheffe d'équipe)</span>
+                  <span>Prof. AHOURE Alban A.E.</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-ci-green"></div>
-                  <span>Dr. Aminata Bamba</span>
+                  <span>Prof. KIMOU Assi José Carlos</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-ci-green"></div>
-                  <span>Dr. Mohamed Sylla</span>
+                  <span>Dr KRAMO Kouakou Germain</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-ci-green"></div>
-                  <span>3 Chercheurs associés</span>
+                  <span>Prof. BEKE EHUITCHE TITE</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <div className="w-2 h-2 rounded-full bg-ci-green"></div>
-                  <span>4 Doctorants</span>
+                  <span>Dr TRAORE NOHOUA</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 rounded-full bg-ci-green"></div>
+                  <span>Dr BECHO ISABELLE EPSE N’DRI</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 rounded-full bg-ci-green"></div>
+                  <span>Dr KOUADIO BONIFACE</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 rounded-full bg-ci-green"></div>
+                  <span>Dr KACOU KACOU YVES THIERRY</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 rounded-full bg-ci-green"></div>
+                  <span>Dr TOURE TALNAN</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <div className="w-2 h-2 rounded-full bg-ci-green"></div>
+                  <span>Dr ASSOUM FEISSAL</span>
                 </li>
               </ul>
             </CardContent>

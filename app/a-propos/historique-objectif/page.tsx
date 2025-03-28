@@ -19,27 +19,64 @@ export default function HistoriqueObjectifPage() {
             <div className="grid gap-8 md:grid-cols-2 items-center">
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Fondé en 1998, le CAPEC (Cellule d'Analyse de Politiques Économiques du CIRES) est né de la volonté de
-                  créer un centre d'excellence en matière d'analyse économique et de recherche appliquée en Côte
-                  d'Ivoire.
+                Née en 1992, dans un contexte de crise économique, la Cellule d’Analyse de Politiques Economiques
+                 du Cires (CAPEC) est devenue fonctionnelle en 1993. Initialement financée principalement par 
+                 la Fondation pour le Renforcement des Capacités en Afrique (ACBF), et l’Etat Ivoirien, 
+                 la création de la CAPEC se justifiait par la nécessité d’apporter une assistance technique 
+                 au Gouvernement dans la quête de solutions à une croissance économique soutenue, favorable 
+                 à la réduction de la pauvreté et à celle de son incidence sur les populations ivoiriennes.
+                </p>
+                <h1 className="font-bold mb-4 ">
+                La mise en œuvre du Projet s'est opérée en trois grandes phases:
+                </h1>
+                <p>
+                La première phase qui a démarré en juin 1993, a pris fin en mai 2003. Elle a été jugée 
+                encourageante et les résultats obtenus ont permis la mise en place d'une 2ème phase à 
+                travers la signature d'un second accord de Don entre l'Etat de Côte d'Ivoire et l'ACBF
                 </p>
                 <p>
-                  À l'origine, le CAPEC a été créé pour répondre à un besoin croissant d'analyses économiques
-                  rigoureuses et indépendantes pour guider les politiques publiques dans un contexte de réformes
-                  économiques et institutionnelles.
+                L'objectif de la seconde phase était de renforcer les acquis de la phase I dans les domaines 
+                du renforcement des capacités et de la gestion de la politique macroéconomique. Elle visait 
+                aussi le renforcement de l'autonomie financière de la cellule et l'instauration d'un programme 
+                de formation en direction du personnel d'appui et des chercheurs à l'effet de renforcer les 
+                capacités internes du CIRES et également d'attirer et de maintenir un personnel qualifié. 
+                Une revue de cette seconde phase conduite par l'ACBF en 2006, indique que le projet a eu un 
+                impact global substantiel surtout dans les domaines du renforcement des capacités du personnel 
+                de l'administration publique et dans la mise en œuvre de la politique économique du gouvernement
                 </p>
                 <p>
-                  Au fil des années, le CAPEC s'est imposé comme un acteur incontournable dans le domaine de l'analyse
-                  des politiques économiques, contribuant activement au débat public et à la prise de décision.
+                La troisième phase a débuté en juin 2007 et s'est achevée le 30 novembre 2013. L'évaluation 
+                de cette phase réalisée par un Consultant confirme les tendances issues des premières 
+                évaluations et met en évidence des impacts positifs non prévus par l'accord de don.
                 </p>
                 <p>
-                  Le centre a progressivement élargi son champ d'action, développant des partenariats avec des
-                  institutions nationales et internationales, et renforçant ses capacités de recherche et d'analyse.
+                A partir de Janvier 2014, les interventions de la CAPEC ont été inscrites désormais dans une 
+                perspective plus globale de l'appui aux acteurs économiques nationaux à travers le Programme 
+                Pays de Renforcement des Capacités en Côte d'Ivoire (PPRC) dont l'accord de don a été signé 
+                le mercredi 15 mai 2013. Ce Programme Pays vise à contribuer, avec succès, au renforcement 
+                des capacités de l'économie nationale dans la lutte contre la pauvreté.
+                </p>
+                <p>
+                Après plus de 25 années d'activités ayant visé le renforcement des capacités des cadres de 
+                l'administration publique, du secteur privé et de la société civile en élaboration et mise 
+                en œuvre des politiques économiques, la Capec connait une mutation institutionnelle. 
+                Elle aura besoin de plus de ressources de l'Etat, mais souhaite préserver son autonomie 
+                afin de permettre aux chercheurs d'avoir des contributions plus pertinentes à l'analyse 
+                de la politique économique en CI.
+                </p>
+                <p>
+                En attendant cette mutation, la CAPEC se présente à ce jour, comme une référence dans le 
+                domaine de l'analyse et de gestion des politiques macroéconomiques en Côte d'Ivoire. 
+                Elle se signale, comme un précieux organe de référence dans la maîtrise du développement 
+                économique de la Côte d'Ivoire. Cette performance est à mettre sur le compte de la qualité 
+                de ses produits. Produits en tant que résultats de la recherche et produits en tant que 
+                Producteurs de la Recherche.
                 </p>
               </div>
               <div className="flex justify-center">
                 <Image
-                  src="/placeholder.svg?text=Histoire+du+CAPEC+depuis+1998&height=400&width=600"
+                  src="/images/30.jpg"
+                  //src="/placeholder.svg?text=Histoire+du+CAPEC+depuis+1998&height=400&width=600"
                   alt="Histoire du CAPEC"
                   width={600}
                   height={400}
@@ -118,27 +155,32 @@ export default function HistoriqueObjectifPage() {
           {/* Section Objectifs */}
           <section>
             <h2 className="text-2xl font-bold mb-6">Nos Objectifs</h2>
+            <h2 className="text-xl font-bold mb-6">Objectif Général</h2>
+            
             <div className="grid gap-8 md:grid-cols-2">
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Le CAPEC a pour mission principale de contribuer au développement économique et social à travers la
-                  recherche, l'analyse et la formulation de politiques économiques fondées sur des données probantes.
-                </p>
-                <p>Nos objectifs stratégiques sont :</p>
+                La CAPEC a pour objectif de produire pour le compte de l'administration ivoirienne des travaux 
+                scientifiques destinés à éclairer la politique économique du gouvernement. Elle se veut 
+                également un cadre national de réflexion, de recherche, d'information et de conseil au 
+                service des institutions internationales, des opérateurs économiques et autres organisations 
+                professionnelles.  
+                </p> 
+                <h2 className="text-xl font-bold mb-6">Objectifs spécifiques</h2>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>
-                    Produire des analyses économiques rigoureuses et pertinentes pour éclairer les décisions politiques
+                  Faire des études et recherches destinées à éclairer les décideurs et les groupes 
+                  socio-économiques ivoiriens, en vue de renforcer les capacités nationales d'analyse 
+                  de politique et du développement économique ;                  
                   </li>
                   <li>
-                    Contribuer au débat public sur les enjeux économiques majeurs nationaux, régionaux et internationaux
+                  Offrir aux agents économiques un cadre national de réflexion et d'animation scientifique 
+                  favorisant le dialogue sur les grandes questions économiques d'intérêt pour la Côte d'Ivoire 
+                  et pour la sous-région ;                  
                   </li>
                   <li>
-                    Former la prochaine génération d'économistes et d'analystes pour renforcer les capacités nationales
-                  </li>
-                  <li>Développer des partenariats stratégiques avec des institutions nationales et internationales</li>
-                  <li>
-                    Promouvoir l'utilisation des données et des méthodes scientifiques dans l'élaboration des politiques
-                    publiques
+                  Assurer la formation continue des cadres de l'Administration dans le domaine de l'analyse 
+                  des politiques macroéconomiques et sectorielles.                  
                   </li>
                 </ul>
               </div>
