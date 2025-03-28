@@ -10,42 +10,42 @@ import { EventCarousel } from "@/components/carousel"
 
 
 
+// Utilisation du composant
+const carouselEvents = [
+  {
+    title: "Cellule d'Analyse de Politiques Économiques du CIRES",
+    description:
+      "Rejoignez-nous pour cette conférence majeure qui réunira des experts de renommée mondiale pour discuter des stratégies économiques dans l'ère post-pandémie.",
+    date: "15-16 mars 2023",
+    image: "/images/carousel2.jpg",
+    learnMoreLink: "/activites/programme#event1",
+    registerLink: "/activites/programme/inscription",
+  },
+  {
+    title: "Lancement du nouveau programme de recherche sur l'économie verte",
+    description:
+      "Le CAPEC lance un ambitieux programme de recherche sur l'économie verte et la transition écologique, financé par une subvention internationale.",
+    date: "20 avril 2023",
+    image: "/images/conference.jpg",
+    learnMoreLink: "/recherches/projets/economie-verte",
+    registerLink: "/formations/inscription",
+  },
+  {
+    title: "Séminaire de formation en économétrie appliquée",
+    description:
+      "Formation avancée sur les techniques économétriques pour les chercheurs et doctorants, avec un focus sur les applications pratiques.",
+    date: "5-7 juin 2023",
+    image: "/images/carousel3.jpg",
+    learnMoreLink: "/formations/econometrie",
+    registerLink: "/formations/inscription",
+  },
+];
+
 export default function Home() {
   // Données pour le carrousel d'événements
 
  // <div className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"></div>
 
-  
-  const carouselEvents = [
-    {
-      title: "Cellule d'Analyse de Politiques Économiques du CIRES",
-     
-      description:
-        "Rejoignez-nous pour cette conférence majeure qui réunira des experts de renommée mondiale pour discuter des stratégies économiques dans l'ère post-pandémie.",
-      date: "15-16 mars 2023",
-      image: "/images/carousel2.jpg",
-     // image: "/placeholder.svg?text=Conférence+Internationale+CAPEC&height=600&width=1200",
-      learnMoreLink: "/activites/programme#event1",
-      registerLink: "/activites/programme/inscription",
-    },
-    {
-      title: "Lancement du nouveau programme de recherche sur l'économie verte",
-      description:
-        "Le CAPEC lance un ambitieux programme de recherche sur l'économie verte et la transition écologique, financé par une subvention internationale.",
-      date: "20 avril 2023",
-      image: "/images/conference.jpg",
-      learnMoreLink: "/recherches/projets/economie-verte",
-    },
-    {
-      title: "Séminaire de formation en économétrie appliquée",
-      description:
-        "Formation avancée sur les techniques économétriques pour les chercheurs et doctorants, avec un focus sur les applications pratiques.",
-      date: "5-7 juin 2023",
-      image: "/images/carousel3.jpg",
-      learnMoreLink: "/formations/econometrie",
-      registerLink: "/formations/inscription",
-    },
-  ]
   
 
   return (
