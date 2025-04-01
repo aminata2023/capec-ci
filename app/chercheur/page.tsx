@@ -28,9 +28,9 @@ export default function ChercheurPage() {
         <Tabs defaultValue="all" className="mt-8">
           <TabsList className="grid w-full grid-cols-4">
             <TabsTrigger value="all">Tous les chercheurs</TabsTrigger>
-            <TabsTrigger value="senior">Chercheurs seniors</TabsTrigger>
-            <TabsTrigger value="junior">Chercheurs juniors</TabsTrigger>
-            <TabsTrigger value="associes">Chercheurs associés</TabsTrigger>
+            <TabsTrigger value="senior">COMITE DE PILOTAGE</TabsTrigger>
+            <TabsTrigger value="junior">DIRECTEUR</TabsTrigger>
+            <TabsTrigger value="associes">EQUIPE DE RECHERCHE</TabsTrigger>
           </TabsList>
           <TabsContent value="all" className="mt-6">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -104,91 +104,176 @@ function ResearcherCard({ researcher }) {
 const seniorResearchers = [
   {
     id: "1",
-    name: "Dr. Amadou Diallo",
-    title: "Directeur / Chercheur Senior",
+    name: "Dr. YEO Nahoua",
+    title: "Directeur de Cabinet du Ministère du Plan",
     bio: "Docteur en économie avec plus de 20 ans d'expérience dans l'analyse des politiques économiques et le développement durable.",
     expertise: ["Macroéconomie", "Politiques publiques", "Développement durable"],
-    photo: "/placeholder.svg?text=Dr.+Amadou+Diallo&height=300&width=300",
+    //photo: "/images/drnahouyeao.jpg"
+    photo: "/images/drnahouyeao.jpg?t&height=300&width=1200",
   },
   {
     id: "2",
-    name: "Dr. Marie Koné",
-    title: "Directrice Adjointe / Chercheuse Senior",
+    name: "Honorable DIABAGATE MAmah",
+    title: " Commission des Affaires Economiques et Financières de l’Assemblée Nationale",
     bio: "Spécialiste en macroéconomie et développement durable, ancienne conseillère ministérielle avec une expertise en économie du genre.",
     expertise: ["Économie du genre", "Développement durable", "Politiques sociales"],
-    photo: "/placeholder.svg?text=Dr.+Marie+Koné&height=300&width=300",
+    photo: "/images/drnahouyeao.jpg?text=Dr.+Marie+Koné&height=300&width=300",
   },
   {
     id: "3",
-    name: "Dr. Jean Touré",
-    title: "Chercheur Senior",
+    name: "Dr ABOUA Gustave",
+    title: "Conseiller Economique, Social, Environnemental et Culturel",
     bio: "Expert en économie du développement avec un focus sur les politiques d'inclusion financière et la réduction de la pauvreté.",
     expertise: ["Inclusion financière", "Réduction de la pauvreté", "Microfinance"],
     photo: "/placeholder.svg?text=Dr.+Jean+Touré&height=300&width=300",
   },
   {
     id: "4",
-    name: "Dr. Fatou Sow",
-    title: "Chercheuse Senior",
+    name: "M. TRA BI EMMANUEL",
+    title: "Membre de la Commission des Affaires Economiques et Financières (Assemblée Nationale)",
     bio: "Spécialiste des questions de genre et d'économie sociale, docteure de l'Université de Paris avec une expertise en évaluation d'impact.",
     expertise: ["Économie sociale", "Évaluation d'impact", "Politiques de genre"],
     photo: "/placeholder.svg?text=Dr.+Fatou+Sow&height=300&width=300",
   },
-]
-
-const juniorResearchers = [
   {
     id: "5",
-    name: "Dr. Paul Mensah",
-    title: "Chercheur",
+    name: "Prof. BALLO ZIE",
+    title: " Président de l’UFHB de Cocody",
     bio: "Économiste spécialisé dans l'analyse des politiques commerciales et l'intégration régionale en Afrique de l'Ouest.",
     expertise: ["Commerce international", "Intégration régionale", "Économétrie"],
     photo: "/placeholder.svg?text=Dr.+Paul+Mensah&height=300&width=300",
   },
   {
     id: "6",
-    name: "Dr. Aminata Bamba",
-    title: "Chercheuse",
+    name: "Prof. BAMBA N’Galadjo",
+    title: "Conseiller Ministère de l’Economie et des Finances (MEF) ",
     bio: "Spécialiste en économie agricole et développement rural, avec un intérêt particulier pour les chaînes de valeur agricoles.",
     expertise: ["Économie agricole", "Développement rural", "Chaînes de valeur"],
     photo: "/placeholder.svg?text=Dr.+Aminata+Bamba&height=300&width=300",
   },
   {
     id: "7",
-    name: "Dr. Olivier Kouamé",
-    title: "Chercheur",
+    name: "M. ADOPO Fiacre",
+    title: "Directeur des Politiques et Synthèses Budgétaires (DGBF)",
     bio: "Expert en économie de l'éducation et formation professionnelle, avec une expérience dans l'évaluation des politiques éducatives.",
     expertise: ["Économie de l'éducation", "Capital humain", "Marché du travail"],
     photo: "/placeholder.svg?text=Dr.+Olivier+Kouamé&height=300&width=300",
   },
-]
-
-const associateResearchers = [
   {
     id: "8",
-    name: "Prof. Sarah Johnson",
-    title: "Chercheuse Associée",
+    name: "M. NIANGO Guy",
+    title: "Secrétaire du BNETD Représentant le Dg du BNETD",
     bio: "Professeure d'économie à l'Université de Stanford, spécialiste en économie du développement et collaboratrice régulière du CAPEC.",
     expertise: ["Économie du développement", "Pauvreté", "Méthodes expérimentales"],
     photo: "/placeholder.svg?text=Prof.+Sarah+Johnson&height=300&width=300",
   },
   {
     id: "9",
-    name: "Dr. Mohamed Sylla",
-    title: "Chercheur Associé",
+    name: "Dr DIARRA Ibrahim",
+    title: "Directeur du CIRES",
     bio: "Économiste à la Banque Mondiale, collabore avec le CAPEC sur des projets liés aux politiques de développement en Afrique.",
     expertise: ["Politiques de développement", "Finance internationale", "Gouvernance"],
     photo: "/placeholder.svg?text=Dr.+Mohamed+Sylla&height=300&width=300",
   },
+]
+
+const juniorResearchers = [
   {
     id: "10",
-    name: "Dr. Lucie Osei",
-    title: "Chercheuse Associée",
+    name: "Prof. AHOURE Alban A.E",
+    title: "DIRECTEUR",
     bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
     expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
     photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
   },
 ]
+
+const associateResearchers = [
+  {
+    id: "11",
+    name: "Prof. AHOURE Alban A.E",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+  {
+    id: "12",
+    name: "Prof. KIMOU Assi José Carlos",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+  {
+    id: "13",
+    name: "Dr KRAMO Kouakou Germain",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+  {
+    id: "14",
+    name: "Prof. BEKE EHUITCHE TITE",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+  {
+    id: "15",
+    name: "Dr TRAORE NOHOUA",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+  {
+    id: "16",
+    name: "Dr BECHO ISABELLE EPSE N’DRI",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+  {
+    id: "17",
+    name: "Dr KOUADIO BONIFACE",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+  {
+    id: "18",
+    name: "Dr KACOU KACOU YVES THIERRY",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+  {
+    id: "19",
+    name: "Dr TOURE TALNAN",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  }, 
+  {
+    id: "20",
+    name: "Dr ASSOUM FEISSAL",
+    title: "DIRECTEUR",
+    bio: "Économiste environnementale, travaille sur les questions de changement climatique et d'économie verte en collaboration avec le CAPEC.",
+    expertise: ["Économie environnementale", "Changement climatique", "Économie verte"],
+    photo: "/placeholder.svg?text=Dr.+Lucie+Osei&height=300&width=300",
+  },
+]
+
+
+
+
 
 const allResearchers = [...seniorResearchers, ...juniorResearchers, ...associateResearchers]
 

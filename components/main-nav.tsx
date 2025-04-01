@@ -6,111 +6,14 @@ import { usePathname } from "next/navigation"
 import Image from "next/image"
 import { cn } from "@/lib/utils"
 import { ChevronDown } from "lucide-react"
+import { title } from "process"
+import { navItems } from "./navItems"
 
-type NavItem = {
+export type NavItem = {
   title: string
   href: string
   submenu?: NavItem[]
 }
-
-const navItems: NavItem[] = [
-  {
-    title: "ACCUEIL",
-    href: "/",
-  },
-  {
-    title: "A PROPOS",
-    href: "/a-propos",
-    submenu: [
-      {
-        title: "Mot du Directeur",
-        href: "/a-propos/mot-du-directeur",
-      },
-      {
-        title: "Historique et Objectif",
-        href: "/a-propos/historique-objectif",
-      },
-      {
-        title: "Nos Activités",
-        href: "/a-propos/nos-activites",
-      },
-      {
-        title: "Organigramme",
-        href: "/a-propos/organigramme",
-      },
-      {
-        title: "La CAPEC en Chiffres",
-        href: "/a-propos/capec-en-chiffres",
-      },
-      {
-        title: "Quelques Références",
-        href: "/a-propos/references",
-      },
-    ],
-  },
-  {
-    title: "RESSOURCES",
-    href: "/ressources",
-    submenu: [
-      {
-        title: "Recherches",
-        href: "/recherches",
-      },
-      {
-        title: "Publications",
-        href: "/publications",
-      },
-      {
-        title: "Etudes",
-        href: "/etudes",
-      },
-    ],
-  },
-  {
-    title: "NOS REALISATIONS",
-    href: "/nos réalisations",
-    submenu: [
-      {
-        title: "PROGRAMME D'ACTIVITES",
-        href: "/activites/programme",
-      },
-      {
-        title: "RAPPORT D'ACTIVITES",
-        href: "/activites/rapport",
-      },
-      {
-        title: "CR d'ACTIVITES",
-        href: "/activites/compte-rendu",
-      },
-      {
-        title: "INTERVIEW / QUESTION",
-        href: "/activites/interview",
-      },
-      {
-        title: "ACTUALITES",
-        href: "/activites/actualites",
-      },
-    ],
-  },
-  {
-    title: "MEDIAS",
-    href: "/medias",
-    submenu: [
-      {
-        title: "Photothèque",
-        href: "/medias/phototheque",
-      },
-      {
-        title: "Vidéothèque",
-        href: "/medias/videotheque",
-      },
-    ],
-  },
-  {
-    title: "CHERCHEUR",
-    href: "/chercheur",
-  },
-]
 
 export function MainNav() {
   const pathname = usePathname()
