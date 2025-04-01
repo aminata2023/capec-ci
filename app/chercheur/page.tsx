@@ -70,11 +70,16 @@ export default function ChercheurPage() {
 function ResearcherCard({ researcher }) {
   return (
     <Card className="overflow-hidden hover:shadow-md transition-shadow">
-      <div className="flex flex-col md:flex-row">
-        <div className="relative w-full md:w-1/3 aspect-square md:aspect-auto">
-          <Image src={researcher.photo || "/placeholder.svg"} alt={researcher.name} fill className="object-cover" />
+      <div className="flex flex-col md:flex-row items-center">
+        <div className="relative w-24 h-24 md:w-28 md:h-28 flex-shrink-0 my-4 md:my-0 md:ml-4">
+          <Image
+            src={researcher.photo || "/placeholder.svg"}
+            alt={researcher.name}
+            fill
+            className="object-cover rounded-md"
+          />
         </div>
-        <CardContent className="p-4 md:p-6 flex-1">
+        <CardContent className="p-4 md:p-6 flex-1 flex flex-col">
           <h3 className="font-bold text-lg">{researcher.name}</h3>
           <p className="text-ci-orange text-sm">{researcher.title}</p>
           <div className="mt-2 space-y-2">

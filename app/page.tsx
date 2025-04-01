@@ -71,58 +71,59 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <Card>
-              <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
-                <div className="p-3 rounded-full bg-orange-100">
-                  <FileText className="h-6 w-6 text-ci-orange" />
+            <Card className="max-w-xs mx-auto">
+              <CardContent className="p-4 flex flex-col items-center text-center space-y-3">
+                <div className="p-2 rounded-full bg-orange-100">
+                  <FileText className="h-5 w-5 text-ci-orange" />
                 </div>
-                <h3 className="text-xl font-bold">Recherche</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-lg font-bold">Recherche</h3>
+                <p className="text-sm text-muted-foreground">
                   Conduire des recherches de haute qualité sur les questions économiques pertinentes.
                 </p>
                 <Image
-                src={"/images/recherche2.jpg?height=6000&width=1000"}
-                 // src="/placeholder.svg?text=Formation+Académique&height=150&width=300"
+                  src="/images/30.jpg?text=Recherche+Économique&height=120&width=240"
                   alt="Recherche économique"
-                  width={6000}
-                  height={1000}
-                  className="rounded-md mt-2"
+                  width={240}
+                  height={120}
+                  className="rounded-md mt-1"
                 />
               </CardContent>
             </Card>
-            <Card>
-              <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
-                <div className="p-3 rounded-full bg-green-100">
-                  <Users className="h-6 w-6 text-ci-green" />
+
+            <Card className="max-w-xs mx-auto">
+              <CardContent className="p-4 flex flex-col items-center text-center space-y-3">
+                <div className="p-2 rounded-full bg-green-100">
+                  <Users className="h-5 w-5 text-ci-green" />
                 </div>
-                <h3 className="text-xl font-bold">Formation</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-lg font-bold">Formation</h3>
+                <p className="text-sm text-muted-foreground">
                   Former la prochaine génération d'analystes et de chercheurs en économie.
                 </p>
                 <Image
-                  src={"/images/recherche2.jpg?height=6000&width=1000"}
+                  src="/images/30.jpg?text=Recherche+Économique&height=120&width=240"
                   alt="Formation académique"
-                  width={6000}
-                  height={1000}
-                  className="rounded-md mt-2"
+                  width={240}
+                  height={120}
+                  className="rounded-md mt-1"
                 />
               </CardContent>
             </Card>
-            <Card>
-              <CardContent className="p-6 flex flex-col items-center text-center space-y-4">
-                <div className="p-3 rounded-full bg-orange-100">
-                  <Calendar className="h-6 w-6 text-ci-orange" />
+
+            <Card className="max-w-xs mx-auto">
+              <CardContent className="p-4 flex flex-col items-center text-center space-y-3">
+                <div className="p-2 rounded-full bg-orange-100">
+                  <Calendar className="h-5 w-5 text-ci-orange" />
                 </div>
-                <h3 className="text-xl font-bold">Conseil</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-lg font-bold">Conseil</h3>
+                <p className="text-sm text-muted-foreground">
                   Fournir des conseils stratégiques aux décideurs politiques et aux parties prenantes.
                 </p>
                 <Image
-                  src="/images/recherche2.jpg?height=6000&width=1000"
+                  src="/images/30.jpg?text=Recherche+Économique&height=120&width=240"
                   alt="Conseil stratégique"
-                  width={6000}
-                  height={1000}
-                  className="rounded-md mt-2"
+                  width={240}
+                  height={120}
+                  className="rounded-md mt-1"
                 />
               </CardContent>
             </Card>
