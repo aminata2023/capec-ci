@@ -64,8 +64,8 @@ export const navItems: NavItem[] = [
       }, 
       {
         title: "Travaux de Recherche",
-        href: "/publications/travaux-de-recherche",
-        submenu: [
+        href: "/publication/travaux-de-recherche",
+       /* submenu: [
           {
             title: "Etudes Commandités",
             href: "/publication/travaux-de-recherche/etudes-commandites"
@@ -73,18 +73,8 @@ export const navItems: NavItem[] = [
           {
             title: "Projet de Recherche",
             href: "/publication/travaux-de-recherche/projet-de-recherche",
-            submenu: [
-              {
-                title: "Etudes Commandités",
-               href: "/publication/travaux-de-recherche/etudes-commandites"
-              },
-              {
-               title: "Projet de Recherche",
-               href: "/publication/travaux-de-recherche/projet-de-recherche"
-              }
-             ]
           },
-        ]
+        ]*/
       },
     ],
   },
