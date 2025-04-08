@@ -40,8 +40,8 @@ export default function HistoriqueObjectifPage() {
                   La mise en œuvre du Projet s'est opérée en trois grandes phases:
                 </h3>
 
-                {/* Timeline design */}
-                <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-ci-orange before:via-ci-green before:to-ci-orange before:z-0">
+                {/* Timeline design  space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-ci-orange before:via-ci-green before:to-ci-orange before:z-0*/}
+                <div className="">
                   {/* Phase 1 */}
                   <div className="relative z-10 flex items-start md:justify-center">
                     <div className="flex flex-col items-center md:w-1/2 md:pr-10 md:text-right">
@@ -54,7 +54,7 @@ export default function HistoriqueObjectifPage() {
                           <span className="font-bold text-ci-orange">1993 - 2003</span>
                         </div>
                         <h4 className="font-bold mb-2">Première phase</h4>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-sm text-muted-foreground ">
                           La première phase qui a démarré en juin 1993, a pris fin en mai 2003. Elle a été jugée
                           encourageante et les résultats obtenus ont permis la mise en place d'une 2ème phase à travers
                           la signature d'un second accord de Don entre l'Etat de Côte d'Ivoire et l'ACBF.
@@ -64,7 +64,7 @@ export default function HistoriqueObjectifPage() {
                   </div>
 
                   {/* Phase 2 */}
-                  <div className="relative z-10 flex items-start md:justify-center">
+                  <div className="relative z-10 flex items-start md:justify-end">
                     <div className="flex flex-col items-center md:w-1/2 md:pl-10">
                       <div className="flex items-center justify-center w-10 h-10 rounded-full bg-ci-green text-white font-bold shadow-md">
                         2
@@ -86,7 +86,7 @@ export default function HistoriqueObjectifPage() {
                   </div>
 
                   {/* Phase 3 */}
-                  <div className="relative z-10 flex items-start md:justify-center">
+                  <div className="relative z-10 flex items-start md:justif-end">
                     <div className="flex flex-col items-center md:w-1/2 md:pr-10 md:text-right">
                       <div className="flex items-center justify-center w-10 h-10 rounded-full bg-ci-orange text-white font-bold shadow-md">
                         3
@@ -167,88 +167,28 @@ export default function HistoriqueObjectifPage() {
             </div>
           </section>
 
-          {/* Section Chronologie */}
-          <section>
-            <h2 className="text-2xl font-bold mb-6">Chronologie</h2>
-            <div className="space-y-8">
-              <div className="flex">
-                <div className="flex-shrink-0 w-24 font-bold text-ci-orange">1998</div>
-                <div>
-                  <h3 className="font-bold">Création du CAPEC</h3>
-                  <p className="text-muted-foreground">
-                    Fondation de la Cellule d'Analyse de Politiques Économiques du CIRES sous l'impulsion de chercheurs
-                    visionnaires.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0 w-24 font-bold text-ci-orange">2003</div>
-                <div>
-                  <h3 className="font-bold">Expansion des activités</h3>
-                  <p className="text-muted-foreground">
-                    Élargissement du champ d'action du CAPEC avec l'intégration de nouvelles thématiques de recherche et
-                    le renforcement de l'équipe.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0 w-24 font-bold text-ci-orange">2008</div>
-                <div>
-                  <h3 className="font-bold">Partenariats internationaux</h3>
-                  <p className="text-muted-foreground">
-                    Développement de collaborations avec des institutions internationales et des centres de recherche
-                    étrangers.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0 w-24 font-bold text-ci-orange">2013</div>
-                <div>
-                  <h3 className="font-bold">Renforcement des capacités</h3>
-                  <p className="text-muted-foreground">
-                    Mise en place de programmes de formation et de renforcement des capacités pour les chercheurs et
-                    analystes.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0 w-24 font-bold text-ci-orange">2018</div>
-                <div>
-                  <h3 className="font-bold">20ème anniversaire</h3>
-                  <p className="text-muted-foreground">
-                    Célébration des 20 ans du CAPEC et lancement de nouvelles initiatives stratégiques pour l'avenir.
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <div className="flex-shrink-0 w-24 font-bold text-ci-orange">2023</div>
-                <div>
-                  <h3 className="font-bold">Modernisation et innovation</h3>
-                  <p className="text-muted-foreground">
-                    Adoption de nouvelles technologies et méthodes d'analyse pour répondre aux défis économiques
-                    contemporains.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-
           {/* Section Objectifs */}
           <section>
             <h2 className="text-2xl font-bold mb-6">Nos Objectifs</h2>
-            <h2 className="text-xl font-bold mb-6">Objectif Général</h2>
-            
-            <div className="grid gap-8 md:grid-cols-2">
-              <div className="space-y-4 text-muted-foreground">
-                <p>
+         
+            {/*bg-gray pour mettre un fond gras à l'arrière*/ }
+            <div className=" bg-gray-50 grid gap-8 md:grid-cols-2">
+              <div className="-50 p-6 rounded-lg">
+              <h3 className="font-bold text-lg mb-4">Objectif Général</h3>
+                <p className="flex items-start">
                 La CAPEC a pour objectif de produire pour le compte de l'administration ivoirienne des travaux 
                 scientifiques destinés à éclairer la politique économique du gouvernement. Elle se veut 
                 également un cadre national de réflexion, de recherche, d'information et de conseil au 
                 service des institutions internationales, des opérateurs économiques et autres organisations 
                 professionnelles.  
-                </p> 
-                <h2 className="text-xl font-bold mb-6">Objectifs spécifiques</h2>
-                <ul className="list-disc pl-6 space-y-2">
+                </p>
+              </div>
+              <div className="-50 p-6 rounded-lg">
+                <h3 className="font-bold text-lg mb-4">Objectifs spécifiques</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start">
+
+                  <ul className="list-disc pl-6 space-y-2">
                   <li>
                   Faire des études et recherches destinées à éclairer les décideurs et les groupes 
                   socio-économiques ivoiriens, en vue de renforcer les capacités nationales d'analyse 
@@ -264,54 +204,6 @@ export default function HistoriqueObjectifPage() {
                   des politiques macroéconomiques et sectorielles.                  
                   </li>
                 </ul>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="font-bold text-lg mb-4">Nos valeurs</h3>
-                <div className="space-y-4">
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-ci-orange flex items-center justify-center text-white font-bold mr-4">
-                      E
-                    </div>
-                    <div>
-                      <h4 className="font-bold">Excellence</h4>
-                      <p className="text-sm text-muted-foreground">
-                        Nous nous engageons à maintenir les plus hauts standards de qualité dans nos recherches et
-                        analyses.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-ci-green flex items-center justify-center text-white font-bold mr-4">
-                      I
-                    </div>
-                    <div>
-                      <h4 className="font-bold">Indépendance</h4>
-                      <p className="text-sm text-muted-foreground">
-                        Nous préservons notre indépendance intellectuelle pour garantir l'objectivité de nos travaux.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-ci-orange flex items-center justify-center text-white font-bold mr-4">
-                      R
-                    </div>
-                    <div>
-                      <h4 className="font-bold">Rigueur</h4>
-                      <p className="text-sm text-muted-foreground">
-                        Nous appliquons une méthodologie rigoureuse et scientifique dans toutes nos analyses.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-full bg-ci-green flex items-center justify-center text-white font-bold mr-4">
-                      P
-                    </div>
-                    <div>
-                      <h4 className="font-bold">Pertinence</h4>
-                      <p className="text-sm text-muted-foreground">
-                        Nous veillons à ce que nos recherches répondent aux défis économiques réels et actuels.
-                      </p>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -323,4 +215,3 @@ export default function HistoriqueObjectifPage() {
     </div>
   )
 }
-

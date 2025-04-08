@@ -61,12 +61,11 @@ export default function Home() {
       {/* Mission Section */}
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
-          <div className="flex flex-col items-center justify-center space-y-4 text-center">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center py-16 bg-orange-500 text-white">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Notre Mission</h2>
-              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Le CAPEC a pour mission de contribuer au développement économique et social à travers la recherche,
-                l'analyse et la formulation de politiques économiques fondées sur des données probantes.
+              <h2 className="text-3xl tracking-tighter sm:text-4xl font-bold">Notre Mission</h2>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-white font-bold">
+               Eclairer la politique économique et renforcer les capacités
               </p>
             </div>
           </div>
@@ -188,7 +187,7 @@ export default function Home() {
             <div className="inline-flex items-center justify-center p-2 bg-orange-100 rounded-full mb-4">
               <Camera className="h-6 w-6 text-ci-orange" />
             </div>
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Le CAPEC en images</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">La CAPEC en images</h2>
             <div className="w-20 h-1 bg-ci-orange mx-auto my-2"></div>
             <p className="max-w-[700px] text-muted-foreground">
               Découvrez nos activités, nos événements et notre équipe à travers cette galerie d'images.
@@ -319,7 +318,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-10">
-            <Link href="/medias/phototheque">
+            <Link href="/medias/phototheque"> {/*redirige vers l'onglet photothèque*/}
               <Button className="bg-ci-orange hover:bg-orange-600 text-white">
                 Voir toutes les photos
                 <ChevronRight className="ml-2 h-4 w-4" />
