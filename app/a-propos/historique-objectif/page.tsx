@@ -150,7 +150,7 @@ export default function HistoriqueObjectifPage() {
                   <div className="bg-green-50 p-6 rounded-lg border-l-4 border-ci-green shadow-sm">
                     <h4 className="font-bold text-lg mb-3 text-ci-green">Aujourd'hui</h4>
                     <p className="text-sm text-muted-foreground">
-                      Après plus de 25 années d'activités ayant visé le renforcement des capacités des cadres de
+                      Après plus de 30 années d'activités ayant visé le renforcement des capacités des cadres de
                       l'administration publique, du secteur privé et de la société civile en élaboration et mise en
                       œuvre des politiques économiques, la Capec connait une mutation institutionnelle.
                     </p>
