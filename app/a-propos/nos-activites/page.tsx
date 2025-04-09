@@ -92,7 +92,7 @@ export default function NosActivitesPage() {
               <div className="p-3 rounded-full bg-orange-100 mt-4">
                 <Calendar className="h-6 w-6 text-ci-orange" />
               </div>
-              <h3 className="text-xl font-bold">Conseil</h3>
+              <h3 className="text-xl font-bold">Etude</h3>
               <p className="text-muted-foreground">
                 Fournir des conseils stratégiques aux décideurs politiques et aux parties prenantes sur les questions
                 économiques.

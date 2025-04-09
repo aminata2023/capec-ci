@@ -113,7 +113,7 @@ export default function Home() {
                 <div className="p-2 rounded-full bg-orange-100">
                   <Calendar className="h-5 w-5 text-ci-orange" />
                 </div>
-                <h3 className="text-lg font-bold">Conseil</h3>
+                <h3 className="text-lg font-bold">Etude</h3>
                 <p className="text-sm text-muted-foreground">
                   Fournir des conseils stratégiques aux décideurs politiques et aux parties prenantes.
                 </p>
