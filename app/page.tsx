@@ -17,7 +17,7 @@ const carouselEvents = [
     description:
       "Rejoignez-nous pour cette conférence majeure qui réunira des experts de renommée mondiale pour discuter des stratégies économiques dans l'ère post-pandémie.",
     date: "15-16 mars 2023",
-    image: "/images/carousel2.jpg",
+    image: "/images/10esommetdesthinkstankdafriquevalide.jpg",
     learnMoreLink: "/activites/programme#event1",
     registerLink: "/activites/programme/inscription",
   },
@@ -26,7 +26,7 @@ const carouselEvents = [
     description:
       "Le CAPEC lance un ambitieux programme de recherche sur l'économie verte et la transition écologique, financé par une subvention internationale.",
     date: "20 avril 2023",
-    image: "/images/conference.jpg",
+    image: "/images/dinerdes30eanniversairedelacapec9octobre2024.jpg",
     learnMoreLink: "/recherches/projets/economie-verte",
     registerLink: "/formations/inscription",
   },
@@ -35,7 +35,7 @@ const carouselEvents = [
     description:
       "Formation avancée sur les techniques économétriques pour les chercheurs et doctorants, avec un focus sur les applications pratiques.",
     date: "5-7 juin 2023",
-    image: "/images/carousel3.jpg",
+    image: "/images/leçoninaugurale8octobre20242.jpg",
     learnMoreLink: "/formations/econometrie",
     registerLink: "/formations/inscription",
   },
@@ -199,7 +199,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative h-48 md:h-64 w-full transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <Image
-                    src="/placeholder.svg?text=Conférence+CAPEC&height=300&width=400"
+                    src="/images/album1.jpg"
                     alt="Conférence du CAPEC"
                     fill
                     className="object-cover"
@@ -213,7 +213,8 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative h-64 md:h-80 w-full transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <Image
-                    src="/placeholder.svg?text=Séminaire+Économique&height=400&width=300"
+                  src="/images/album2.jpg"
+                    //src="/placeholder.svg?text=Séminaire+Économique&height=400&width=300"
                     alt="Séminaire économique"
                     fill
                     className="object-cover"
@@ -229,7 +230,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative h-64 md:h-80 w-full transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <Image
-                    src="/placeholder.svg?text=Atelier+de+Formation&height=400&width=300"
+                    src="/images/album4.jpg?text=Atelier+de+Formation&height=400&width=300"
                     alt="Atelier de formation"
                     fill
                     className="object-cover"
@@ -243,7 +244,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative h-48 md:h-64 w-full transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <Image
-                    src="/placeholder.svg?text=Réunion+d'Experts&height=300&width=400"
+                    src="/images/album7.jpg?text=Réunion+d'Experts&height=300&width=400"
                     alt="Réunion d'experts"
                     fill
                     className="object-cover"
@@ -259,7 +260,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative h-48 md:h-64 w-full transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <Image
-                    src="/placeholder.svg?text=Présentation+de+Recherche&height=300&width=400"
+                    src="/images/album3.jpg"
                     alt="Présentation de recherche"
                     fill
                     className="object-cover"
@@ -273,7 +274,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative h-64 md:h-80 w-full transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <Image
-                    src="/placeholder.svg?text=Visite+Officielle&height=400&width=300"
+                    src="/images/album4.jpg"
                     alt="Visite officielle"
                     fill
                     className="object-cover"
@@ -289,7 +290,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative h-64 md:h-80 w-full transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <Image
-                    src="/placeholder.svg?text=Équipe+de+Recherche&height=400&width=300"
+                    src="/images/album4.jpg?text=Équipe+de+Recherche&height=400&width=300"
                     alt="Équipe de recherche"
                     fill
                     className="object-cover"
@@ -303,7 +304,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-lg shadow-lg group">
                 <div className="relative h-48 md:h-64 w-full transition-transform duration-500 ease-in-out group-hover:scale-110">
                   <Image
-                    src="/placeholder.svg?text=Cérémonie+de+Remise+de+Prix&height=300&width=400"
+                    src="/images/album6.jpg?text=Cérémonie+de+Remise+de+Prix&height=300&width=400"
                     alt="Cérémonie de remise de prix"
                     fill
                     className="object-cover"
@@ -346,7 +347,8 @@ function PublicationCard({ publication }: { publication: Publication }) {
     <Card className="overflow-hidden">
       <div className="aspect-video w-full overflow-hidden">
         <Image
-          src={publication.coverImage || "/placeholder.svg"}
+        //src="/images/album1.jpg"
+         src={publication.coverImage || "/placeholder.svg"}
           alt={publication.title}
           width={600}
           height={340}

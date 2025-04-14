@@ -235,21 +235,21 @@ const conferencesPhotos = [
     title: "Conférence annuelle du CAPEC 2023",
     date: "15 mars 2023",
     description: "Conférence internationale sur les politiques économiques post-pandémie organisée par le CAPEC.",
-    src: "/placeholder.svg?text=Conférence+Annuelle+2023&height=600&width=600",
+    src: "/images/conf1.jpg?text=Conférence+Annuelle+2023&height=600&width=600",
   },
   {
     id: "conf2",
     title: "Forum économique régional",
     date: "10 novembre 2022",
     description: "Forum sur l'intégration économique régionale avec la participation de plusieurs pays africains.",
-    src: "/placeholder.svg?text=Forum+Économique+Régional&height=600&width=600",
+    src: "/images/conf2.jpg?text=Forum+Économique+Régional&height=600&width=600",
   },
   {
     id: "conf3",
     title: "Conférence sur le développement durable",
     date: "5 juin 2022",
     description: "Conférence sur les politiques économiques favorisant un développement durable en Afrique de l'Ouest.",
-    src: "/placeholder.svg?text=Conférence+Développement+Durable&height=600&width=600",
+    src: "/images/conf3.jpg?text=Conférence+Développement+Durable&height=600&width=600",
   },
   {
     id: "conf4",
@@ -257,7 +257,7 @@ const conferencesPhotos = [
     date: "20 avril 2022",
     description:
       "Symposium international sur les défis et opportunités de l'économie numérique pour les pays en développement.",
-    src: "/placeholder.svg?text=Symposium+Économie+Numérique&height=600&width=600",
+    src: "/images/conf4.jpg?text=Symposium+Économie+Numérique&height=600&width=600",
   },
 ]
 
@@ -268,21 +268,21 @@ const seminairesPhotos = [
     date: "25 février 2023",
     description:
       "Séminaire d'experts sur l'optimisation des politiques fiscales pour stimuler la croissance économique.",
-    src: "/placeholder.svg?text=Séminaire+Politiques+Fiscales&height=600&width=600",
+    src: "/images/sem1.jpg?text=Séminaire+Politiques+Fiscales&height=600&width=600",
   },
   {
     id: "sem2",
     title: "Atelier sur l'analyse des données économiques",
     date: "12 janvier 2023",
     description: "Atelier de formation sur les méthodes avancées d'analyse des données économiques.",
-    src: "/placeholder.svg?text=Atelier+Analyse+Données&height=600&width=600",
+    src: "/images/sem2.jpg?text=Atelier+Analyse+Données&height=600&width=600",
   },
   {
     id: "sem3",
     title: "Séminaire sur l'économie verte",
     date: "8 décembre 2022",
     description: "Séminaire sur les stratégies économiques pour une transition écologique réussie.",
-    src: "/placeholder.svg?text=Séminaire+Économie+Verte&height=600&width=600",
+    src: "/images/sem3.jpg?text=Séminaire+Économie+Verte&height=600&width=600",
   },
   {
     id: "sem4",
@@ -290,7 +290,7 @@ const seminairesPhotos = [
     date: "15 octobre 2022",
     description:
       "Table ronde réunissant des acteurs du secteur financier pour discuter des stratégies d'inclusion financière.",
-    src: "/placeholder.svg?text=Table+Ronde+Inclusion+Financière&height=600&width=600",
+    src: "/images/sem3.jpg?text=Table+Ronde+Inclusion+Financière&height=600&width=600",
   },
 ]
 
@@ -300,7 +300,7 @@ const formationsPhotos = [
     title: "Formation en modélisation économétrique",
     date: "5 mars 2023",
     description: "Formation avancée sur les techniques de modélisation économétrique pour les chercheurs.",
-    src: "/placeholder.svg?text=Formation+Économétrie&height=600&width=600",
+    src: "/images/sem4.jpg?text=Formation+Économétrie&height=600&width=600",
   },
   {
     id: "form2",
