@@ -419,7 +419,7 @@ const recentPublications = [
     excerpt:
       "Cette étude analyse l'impact des différentes politiques fiscales sur la croissance économique à long terme.",
     date: "15 février 2023",
-    coverImage: "/placeholder.svg?text=Politiques+Fiscales&height=340&width=600",
+    coverImage: "/images/pr1.jpg?text=Politiques+Fiscales&height=340&width=600",
   },
   {
     id: "2",
@@ -427,7 +427,7 @@ const recentPublications = [
     excerpt:
       "Une étude approfondie des dynamiques du marché du travail et des facteurs contribuant aux inégalités salariales.",
     date: "10 janvier 2023",
-    coverImage: "/placeholder.svg?text=Marché+du+Travail&height=340&width=600",
+    coverImage: "/images/pr2.jpg?text=Marché+du+Travail&height=340&width=600",
   },
   {
     id: "3",
@@ -435,7 +435,7 @@ const recentPublications = [
     excerpt:
       "Cette publication examine l'efficacité des politiques de développement durable et propose des recommandations.",
     date: "5 décembre 2022",
-    coverImage: "/placeholder.svg?text=Développement+Durable&height=340&width=600",
+    coverImage: "/images/pr3.jpg?text=Développement+Durable&height=340&width=600",
   },
 ]
 
@@ -446,7 +446,7 @@ const recentNews = [
     excerpt:
       "Le CAPEC organise sa conférence annuelle sur les politiques économiques le 15 mars 2023. Inscrivez-vous dès maintenant pour participer à cet événement majeur.",
     date: "20 février 2023",
-    image: "/placeholder.svg?text=Conférence+Annuelle&height=340&width=600",
+    image: "/images/actua1.jpg?text=Conférence+Annuelle&height=340&width=600",
   },
   {
     id: "2",
@@ -454,7 +454,7 @@ const recentNews = [
     excerpt:
       "Le CAPEC est fier d'annoncer un nouveau partenariat de recherche avec l'Université de Paris-Saclay pour étudier les impacts économiques du changement climatique.",
     date: "5 février 2023",
-    image: "/placeholder.svg?text=Partenariat+Universitaire&height=340&width=600",
+    image: "/images/actua2.jpg?text=Partenariat+Universitaire&height=340&width=600",
   },
 ]
 

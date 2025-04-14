@@ -48,7 +48,7 @@ export default function AboutPage() {
               </div>
               <div className="flex justify-center">
                 <Image
-                  src="/placeholder.svg?text=Histoire+du+CAPEC+depuis+1998&height=400&width=600"
+                  src="/images/hist01.jpg?text=Histoire+du+CAPEC+depuis+1998&height=400&width=600"
                   alt="Histoire du CAPEC"
                   width={600}
                   height={400}
@@ -61,7 +61,7 @@ export default function AboutPage() {
               <h2 className="text-2xl font-bold mb-4">Notre Mission</h2>
               <div className="space-y-4 text-muted-foreground max-w-[800px]">
                 <p>
-                  Le CAPEC a pour mission principale de contribuer au développement économique et social à travers la
+                  La CAPEC a pour mission principale de contribuer au développement économique et social à travers la
                   recherche, l'analyse et la formulation de politiques économiques fondées sur des données probantes.
                 </p>
                 <p>Nos objectifs sont multiples :</p>
@@ -78,7 +78,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
               <div className="relative rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?text=Évolution+du+CAPEC&height=300&width=500"
+                  src="/images/notremission.jpg?text=Évolution+du+CAPEC&height=300&width=500"
                   alt="Évolution du CAPEC"
                   width={500}
                   height={300}
@@ -91,7 +91,7 @@ export default function AboutPage() {
               </div>
               <div className="relative rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?text=Partenariats+Internationaux&height=300&width=500"
+                  src="/images/notrmission.jpg?text=Partenariats+Internationaux&height=300&width=500"
                   alt="Partenariats internationaux"
                   width={500}
                   height={300}
@@ -107,7 +107,7 @@ export default function AboutPage() {
           <TabsContent value="equipe" className="mt-6">
             <div className="space-y-8">
               <div>
-                <h2 className="text-2xl font-bold mb-4">Direction</h2>
+                <h2 className="text-2xl font-bold mb-4">Comité de Pilotage</h2>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                   {directionTeam.map((member) => (
                     <TeamMemberCard key={member.id} member={member} />
@@ -116,7 +116,7 @@ export default function AboutPage() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold mb-4">Chercheurs Permanents</h2>
+                <h2 className="text-2xl font-bold mb-4">Direction</h2>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                   {researchTeam.map((member) => (
                     <TeamMemberCard key={member.id} member={member} />
@@ -125,7 +125,7 @@ export default function AboutPage() {
               </div>
 
               <div>
-                <h2 className="text-2xl font-bold mb-4">Personnel Administratif</h2>
+                <h2 className="text-2xl font-bold mb-4">Equipe de Recherche</h2>
                 <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
                   {adminTeam.map((member) => (
                     <TeamMemberCard key={member.id} member={member} />
@@ -164,29 +164,29 @@ function TeamMemberCard({ member }) {
 const directionTeam = [
   {
     id: "1",
-    name: "Dr. Amadou Diallo",
-    title: "Directeur",
-    bio: "Docteur en économie avec plus de 20 ans d'expérience dans l'analyse des politiques économiques.",
-    photo: "/placeholder.svg?text=Dr.+Amadou+Diallo&height=200&width=200",
+    name: "Dr. YEO Nahoua",
+    title: "Directeur de Cabinet du Ministère du Plan",
+    bio: " expert en planification, dirige le Cabinet du Ministère du Plan de Côte d’Ivoire.",
+    photo: "/images/DrYEONahoua.jpg?text=Dr.+Amadou+Diallo&height=200&width=200",
   },
   {
     id: "2",
-    name: "Dr. Marie Koné",
-    title: "Directrice Adjointe",
-    bio: "Spécialiste en macroéconomie et développement durable, ancienne conseillère ministérielle.",
-    photo: "/placeholder.svg?text=Dr.+Marie+Koné&height=200&width=200",
+    name: "Honorable DIABAGATE MAmah",
+    title: " Commission des Affaires Economiques et Financières de l’Assemblée Nationale",
+    bio: "Membre de la Commission Éco. et Finances à l’Assemblée Nationale, expert en politiques publiques.",
+    photo: "/images/HonorableDIABAGATEMAmah.jpg?text=Dr.+Marie+Koné&height=200&width=200",
   },
 ]
 
 const researchTeam = [
   {
     id: "3",
-    name: "Dr. Jean Touré",
-    title: "Chercheur Senior",
+    name: "Prof. AHOURE Alban A.E.",
+    title: "Directeur de la CAPEC",
     bio: "Expert en économie du développement avec un focus sur les politiques d'inclusion financière.",
-    photo: "/placeholder.svg?text=Dr.+Jean+Touré&height=200&width=200",
+    photo: "/images/drcapec.jpg?text=Dr.+Jean+Touré&height=200&width=200",
   },
-  {
+  /*{
     id: "4",
     name: "Dr. Fatou Sow",
     title: "Chercheuse Senior",
@@ -199,13 +199,13 @@ const researchTeam = [
     title: "Chercheur",
     bio: "Économiste spécialisé dans l'analyse des politiques commerciales et l'intégration régionale.",
     photo: "/placeholder.svg?text=Dr.+Paul+Mensah&height=200&width=200",
-  },
+  },*/
 ]
 
 const adminTeam = [
   {
     id: "6",
-    name: "Aïcha Bamba",
+    name: "Prof. KIMOU Assi José Carlos",
     title: "Responsable Administrative",
     bio: "Coordonne les activités administratives et financières du CAPEC depuis 10 ans.",
     photo: "/placeholder.svg?text=Aïcha+Bamba&height=200&width=200",
@@ -217,5 +217,12 @@ const adminTeam = [
     bio: "Responsable de la stratégie de communication et des relations publiques du CAPEC.",
     photo: "/placeholder.svg?text=Kofi+Addo&height=200&width=200",
   },
+  {
+    id: "8",
+    name: "Kofi Addo",
+    title: "Chargé de Communication",
+    bio: "Responsable de la stratégie de communication et des relations publiques du CAPEC.",
+    photo: "/placeholder.svg?text=Kofi+Addo&height=200&width=200",
+  }
 ]
 
