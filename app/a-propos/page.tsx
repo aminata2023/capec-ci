@@ -225,4 +225,3 @@ const adminTeam = [
     photo: "/placeholder.svg?text=Kofi+Addo&height=200&width=200",
   }
 ]
-
